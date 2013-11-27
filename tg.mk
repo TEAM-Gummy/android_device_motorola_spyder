@@ -1,13 +1,13 @@
 # Inherit device configuration for VZW Droid RAZR.
 $(call inherit-product, device/motorola/spyder/full_spyder.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Gummy stuff.
+$(call inherit-product, vendor/Gummy/config/common_full_phone.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cm_spyder
+PRODUCT_NAME := tg_spyder
 PRODUCT_BRAND := verizon
 PRODUCT_DEVICE := spyder
 PRODUCT_DEVICE_PREFIX := cdma
